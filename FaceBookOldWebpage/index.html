@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - log in or sign up</title>
+    <link rel="stylesheet" href="FBstyle.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+
+    </div>
+    <div class="header">
+        <div class="logo">
+            <a class="logo-text" href="index.html">facebook</a>
+
+        </div>
+        <div class="login">
+            <form>
+                <table class="login-controls">
+                    <tr>
+                        <td> <label class="login-label">Email or phone</label></td>
+                        <td> <label class="login-label">Password</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input class="submit-button" type="submit" value="Login" ></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> <a class="forgotten" href="forgotten.html">Forgotten account?</a></td>
+                    </tr>
+
+                </table>
+            </form>
+
+        </div>
+
+    </div>
+    <div class="main-body">
+        <div class="left-section">
+            <p class="para1">Facebook helps you connect and share with the <br>
+                people in your life.</p>
+                <img class="image" src="facebook.jpg" alt="Please wait to Load image">
+
+        </div>
+        <div class="right-section">
+            <h1 class="right-h1">Create an account</h1>
+            <p class="left-para1">it's quick and easy.</p>
+            <form>
+                <tr>
+                    <td><input  class="name1" type="text" placeholder="First name"></td>
+                    <td><input class="name2" type="text" placeholder="Sure name"></td>
+                </tr><br>
+                <tr>
+                    <td><input class="name3" type="text" placeholder="Mobile number or email address"></td>
+                </tr><br>
+                    <td><input class="name4" type="text" placeholder="New Password"></td>
+                </tr>
+            </form>
+               <!-- Your existing form fields here -->
+               <p class="left-para2">Birthday</p>
+               <select class="option-day" id="day">
+                   <!-- Options for days -->
+               </select>
+               <select class="option-month" id="month">
+                   <!-- Options for months -->
+               </select>
+               <select class="option-year" id="year">
+                   <!-- Options for years -->
+               </select>
+               <p id="example-text"></p>
+           </form>
+           <p class="left-para3">Gender</p>
+           <input type="radio" name="gender" id="male">
+           <label class="Gender-text" for="male">Male</label>
+           <input type="radio" name="gender" id="female">
+           <label class="Gender-text" for="female">Female</label>
+           <input type="radio" name="gender" id="custom">
+           <label class="Gender-text" for="custom">Custom</label>
+           <p class="left-para4">By clicking Sign Up, you agree to our <a href="Terms and condions" class="highlight-text">Terms</a>, <a href="Data Policy" class="highlight-text">Data Policy</a><br>
+            and <a href="Cookies Policy" class="highlight-text"> Cookie Policy</a>. You may receive SMS notifications from <br>
+            us and can opt out at any time.</p>
+            <button class="button">
+                <label class="text-button">Sign Up</label>
+            </button>
+            <br><br>
+            <p class="left-para5"><a href="New page" class="highlight-text2">Create a Page</a> for a celebrity, band or business.</p>
+       </div>
+   </div>
+   <div class="footer">
+    <p></p>
+
+   </div>
+
+   <script>
+       // Populate day options
+       var daySelect = document.getElementById("day");
+       for (var i = 1; i <= 31; i++) {
+           var option = document.createElement("option");
+           option.value = i;
+           option.text = i;
+           daySelect.add(option);
+       }
+
+       // Populate month options
+       var monthSelect = document.getElementById("month");
+       var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+       for (var i = 0; i < months.length; i++) {
+           var option = document.createElement("option");
+           option.value = i + 1;
+           option.text = months[i];
+           monthSelect.add(option);
+       }
+
+       // Populate year options
+       var yearSelect = document.getElementById("year");
+       var currentYear = new Date().getFullYear();
+       for (var i = currentYear; i >= currentYear - 100; i--) {
+           var option = document.createElement("option");
+           option.value = i;
+           option.text = i;
+           yearSelect.add(option);
+       }
+
+       // Display example text
+       var exampleText = document.getElementById("example-text");
+       daySelect.addEventListener("change", updateExampleText);
+       monthSelect.addEventListener("change", updateExampleText);
+       yearSelect.addEventListener("change", updateExampleText);
+
+       function updateExampleText() {
+           var day = daySelect.value;
+           var monthIndex = monthSelect.value - 1;
+           var year = yearSelect.value;
+           exampleText.textContent = "Example: " + day + " " + months[monthIndex] + " " + year;
+       }
+   </script>
+</body>
+</html>

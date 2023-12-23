@@ -1,0 +1,250 @@
+body, html {
+    height: 100%;
+    margin: 0%;
+    background-color: black;
+    font-family:'Open Sans', sans-serif;
+}
+.main-body {
+    height: 100%;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+}
+
+.background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.iphone {
+    position: relative;
+    margin-top: 149px;
+}
+
+.iphone-bg {
+    margin-bottom: 110px;
+    width: 301px;
+    height: 587px;
+    float: left;
+    padding-left: 559px;
+}
+.logo {
+    position: absolute;
+    top: 40px;
+    left: 105px;
+    transform: translateX(-50%);
+    z-index: 999;
+    font-family:'Open Sans', sans-serif;
+    
+}
+
+.logo-text {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.output #screen {
+    position: absolute;
+    color: #ffff;
+    text-align: right;
+    font-size: 70px;
+    padding-top: 76px;
+    top: 43px;
+    left: 50%;
+    width: 276px;
+    height: 92px;
+    background-color: rgb(0 0 0);
+    border: solid black;
+    border-radius: 10px;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+.button {
+    position: absolute;
+    padding-left: 582px;
+    margin-top: 218px;
+}
+
+.button .funct,
+.button .btn,
+.button .greybtn,
+.button .zero-btn {
+    transition: background-color 0.3s ease;
+    
+}
+.button .funct:hover {
+    background-color: #cccccc;
+    font-size: 26px;
+}
+
+.button .btn:hover {
+    background-color: #cccccc; 
+    font-size: 27px;
+}
+
+.button .greybtn:hover {
+    background-color: #cccccc;
+    font-size: 27px;
+}
+
+.button .zero-btn:hover {
+    background-color: #cccccc;
+    font-size: 27px;
+}
+
+
+.funct {
+    width: 57px;
+    font-size: 28px;
+    height: 55px;
+    color: #ffff;
+    margin: 1px;
+    border-radius: 100%;
+    border: solid black;
+    background: #ff9f0a;
+}
+.btn {
+    width: 55px;
+    font-size: 30px;
+    height: 55px;
+    color: #ffff;
+    border-radius: 100%;
+    border: solid rgb(0, 0, 0);
+    background: #333333;
+    margin: 3px;
+}
+.greybtn {
+    width: 55px;
+    font-size: 30px;
+    height: 59px;
+    color: black;
+    border-radius: 100%;
+    border: solid black;
+    background: #a5a5a5;
+    margin: 3px;
+    margin-right: 2px;
+}
+.zero-btn {
+    padding-right: 72px;
+    font-size: 30px;
+    width: 123px;
+    height: 54px;
+    color: #ffff;
+    border-radius: 800px;
+    border: solid black;
+    background: #333333;
+    margin-left: 2px;
+}
+.page2 {
+    position: relative;
+    width: 90%;
+    height: 500px;
+    margin: 0%;
+}
+.h1 {
+    font-size: 45px;
+    color: white;
+    padding-left: 170px;
+    padding-top: 10px;
+    margin: 0%;
+    
+}
+.p1 {
+    font-size: 25px;
+    color: white;
+    padding-left: 170px;
+    padding-top: 20px;
+    margin: 0%;
+}
+.setuptext {
+    font-size: 25px;
+    text-decoration: none;
+    color: #74ddff;
+    padding-left: 170px;
+    margin-top: 2px;
+}
+.setuptext:hover {
+    text-decoration: underline;
+    text-decoration-color: #74ddff;
+}
+.image2 {
+    width: 301px;
+    height: 587px;
+    float: right;
+    padding-right: 5em;
+}
+.page3 {
+    position: relative;
+    width: 90%;
+    height: 500px;
+    margin: 0%;
+}
+.h2 {
+    padding-left: 105px;
+    float: left;
+    margin: 0%;
+    font-size: 45px;
+    color: white;
+    padding-left: 142px;
+    padding-top: 90px;
+}
+.p2 {
+    font-size: 25px;
+    float: left;
+    color: white;
+    padding-left: 142px;
+    padding-top: 20px;
+    margin: 0%;
+}
+.image3 {
+    width: 301px;
+    height: 587px;
+    float: left;
+    padding-left: 5em;
+    margin: 0%;
+}
+.page4 {
+    position: relative;
+    width: 90%;
+    height: 500px;
+    margin: 0%;
+}
+.image4 {
+    width: 301px;
+    height: 587px;
+    float: right;
+    padding-right: 5em;
+}
+.page5 {
+    position: relative;
+    width: 90%;
+    height: 500px;
+    margin: 0%;
+}
+.image5 {
+    width: 301px;
+    height: 587px;
+    float: left;
+    padding-right: 10em;
+}
+.page6 {
+    position: relative;
+    width: 90%;
+    height: 500px;
+    margin: 0%;
+}
+.image6 {
+    width: 301px;
+    height: 587px;
+    float: right;
+    padding-right: 10em;
+}

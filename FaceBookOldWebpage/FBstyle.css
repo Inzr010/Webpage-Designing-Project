@@ -1,0 +1,223 @@
+body {
+    margin: 0%;
+    font-family: Helvetica Neue, Helvetica, Arial,
+    sans—serif;
+}
+.header {
+    width: 100%;
+    background-color: #3b5998;
+    height: 85px;
+}
+.logo {
+    width: 50%;
+    padding-top: 30px;
+    color: white;
+    float: left;
+}
+.login {
+    width: 50%;
+    color: white;
+    float: left;
+    padding-top: 10px;
+}
+.logo-text {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none; 
+    margin-left: 150px;
+}
+.login-label {
+    color: white;
+    font-size: 11px;
+}
+.login-controls {
+    padding-left: 67px;
+}
+.forgotten {
+    color: #fff;
+    font-size: 11px;
+    text-decoration: none;
+    color: #9cb4d8;
+
+}
+.submit-button {
+    background: #4267b2;
+    color: #fff;
+    border: 2px solid #223c69;
+    border-radius: 5px; 
+    cursor: pointer;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.submit-button:hover {
+    background: linear-gradient(to bottom, #29487d ,#577bb9);
+}
+.left-section {
+    width: 35%;
+    float: left;
+    padding-left: 150px;
+    padding-top: 30px;
+}
+.right-section {
+    width: 50%;
+    float: left;
+    padding-left: 63px;
+    height: 476px;
+    
+}
+.main-body {
+    background: linear-gradient(white, #D3D8E8);
+    width: 100%;
+    height: 530px;
+}
+.para1 {
+    font-size: 19px;
+    font-weight: bold;
+    color: #17314d;
+    margin: 0%;
+}
+.image {
+    width: 460px;
+}
+.right-h1 {
+    font-size: 40px;
+    color: #313132;
+    padding-top: 20px;
+    margin: 0%;
+}
+.left-para1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #313132;
+}
+.name1 {
+    font-size: 17px;
+    color: black;
+    border-radius: 4px;
+    border: 1px solid #bebfc3;
+    height: 35px;
+    border-width: 1px;
+    margin-bottom: 10px;
+    padding-left: 6px;
+    width: 200px; 
+    height: 35px;
+}
+.name2 {
+    font-size: 17px;
+    color: black;
+    border-radius: 4px;
+    border: 1px solid #bebfc3;
+    height: 35px;
+    border-width: 1px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    padding-left: 6px;
+    width: 200px; 
+    height: 35px;
+}
+.name3 {
+    font-size: 17px;
+    color: black;
+    border-radius: 4px;
+    border: 1px solid #bebfc3;
+    height: 35px;
+    border-width: 1px;
+    margin-bottom: 10px;
+    padding-left: 11px;
+    width: 416px;
+}
+.name4 {
+    font-size: 17px;
+    color: black;
+    border-radius: 4px;
+    border: 1px solid #bebfc3;
+    height: 35px;
+    border-width: 1px;
+    margin-bottom: 10px;
+    padding-left: 11px;
+    width: 416px;
+}
+.left-para2 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7b7d86;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: 0%;
+}
+.option-day {
+    border-color: 1px solid  #bebfc3;
+    width: 40px;
+    height: 20px;
+    border-radius: 4px;
+    margin: 0%;
+}
+.option-month {
+    border-color: 1px solid  #bebfc3;
+    width: 55px;
+    height: 20px;
+    border-radius: 4px;
+    margin: 0%;
+}
+.option-year {
+    border-color: 1px solid  #bebfc3;
+    width: 55px;
+    height: 20px;
+    border-radius: 4px;
+    margin: 0%;
+}
+.left-para3 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #7b7d86;
+    padding-bottom: 10px;
+    margin: 0%;
+}
+.Gender-text {
+    font-size: 17px;
+    color: #343641;
+    font-weight: bold;
+    
+}
+.left-para4 {
+    color: #61636e;
+    font-size: 10px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.highlight-text {
+    color:#425893;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 5px;
+}
+.button {
+    display: inline-block;
+    width: 170px;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background: linear-gradient(to top, #3ea941, #4a802c); /* Green gradient background */
+    cursor: pointer;
+}
+
+.button:hover {
+    background: linear-gradient(to top, #47954b, #369037); /* Darker gradient on hover */
+}
+.left-para5 {
+    font-size: 14px;
+    color: #61636e;
+    font-weight: bold;
+}
+.highlight-text2 {
+    color:#425893;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
